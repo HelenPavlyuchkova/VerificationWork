@@ -13,7 +13,7 @@ void Print(string[] array)
     System.Console.Write($"{array[array.Length - 1]} ]");
 }
 
-string[] ResArray(string[] array, int n = 3) //n -количество символов строки массива
+string[] ResultArray(string[] array, int n = 3) //n -количество символов строки массива
 {
     int count = 0;
     string[] resarray = new string[array.Length];
@@ -33,4 +33,4 @@ string[] ResArray(string[] array, int n = 3) //n -количество симв�
 
 Print(array3);
 System.Console.WriteLine();
-ResArray(array3);
+ResultArray(array3);
